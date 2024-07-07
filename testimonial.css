@@ -1,0 +1,41 @@
+.mySlides {
+  display: none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 215.29px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 70px;
+}
+
+.dot:hover,
+.active {
+  background-color: #fd4c5c;
+}
+
+/* Fading animation */
+.fade {
+  animation: fade 3s forwards; /* Added forwards to retain the final style */
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
