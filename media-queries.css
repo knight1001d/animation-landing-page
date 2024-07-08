@@ -205,6 +205,13 @@
   }
 }
 
+
+@media screen and (max-width: 638px) {
+.features-left{
+flex-direction: column;
+}
+}
+
 @media screen and (max-width: 556px) {
   .hero-section-container {
     padding-inline: 20px !important;

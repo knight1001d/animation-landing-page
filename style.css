@@ -69,6 +69,9 @@
 .signup:hover {
   background-color: #f76c78;
 }
+.hero-section-btn:hover {
+  background-color: #f76c78;
+}
 
 #nav-logo {
   cursor: pointer;
@@ -433,14 +436,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 26px;
+  gap: 70px;
+  padding-block: 130px;
 }
 .features-left {
   max-width: 636px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 60px;
+  gap: 20px
 }
 .features-right {
   max-width: 526px;
@@ -552,7 +556,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 70px;
+  gap: 20px
 }
 .features-section-dots {
   position: absolute;
@@ -573,11 +577,12 @@
 }
 .content-section-inner-most {
   margin-block: 130px;
-  margin-left: 152px;
+  margin-left: 105px;
   border: 2px lightblue dashed;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 80px;
 }
 .content-section-upper-para {
   font-family: "Hanken Grotesk", sans-serif;
